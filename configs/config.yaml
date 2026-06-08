@@ -18,10 +18,4 @@ redis:
 
 jwt:
   secret: short-video-social-secret-key
-  expire_hours: 72
-
-upload:
-  max_size: 104857600  # 100MB
-  video_dir: ./uploads/videos
-  image_dir: ./uploads/images
-  allowed_types: mp4,mov,avi,jpg,jpeg,png,gif
+  expire_hours: 24
